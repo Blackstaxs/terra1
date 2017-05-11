@@ -12,7 +12,7 @@
     "lite": "lite-server",
     "typings": "typings",
     "postinstall": "ng build --aot -prod"
-    //typings install
+    
   },
   "license": "ISC",
   "dependencies": {
