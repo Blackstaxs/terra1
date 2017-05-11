@@ -4,7 +4,7 @@
   "author": "Diego Ruiz",
   "description": "kitchen",
   "scripts": {
-    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" \"node server.js\"",
     "tsc": "tsc",
     "test": "./node_modules/jshint/bin/jshint hello.js",
     "tsc:w": "tsc -w",
